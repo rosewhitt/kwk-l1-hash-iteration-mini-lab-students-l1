@@ -40,7 +40,7 @@ def iterate_through_keys
     :London => "2012"
   }
   summer_olympics[:Atlanta] = "1996"
-  summer_olympics.each_key do |city|
-    puts "The #{city} summer olympics took place in #{year}."
+  summer_olympics.each_key do |upcased_cities|
+    puts "#{upcased_cities} held the olympics."
   end
 end
