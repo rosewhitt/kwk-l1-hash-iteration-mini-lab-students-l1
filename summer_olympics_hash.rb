@@ -21,7 +21,7 @@ end
 
 def iterate_through_hash
   summer_olympics.each do |city, year|
-    puts "The #{city} summer olympics took place in #{year}."
+    return "The #{city} summer olympics took place in #{year}."
   end
 end
 
